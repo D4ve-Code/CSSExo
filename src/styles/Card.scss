@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    align-items: center;
+    .cardImage{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-image: url('../assets/lotr.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cardTitle{
+        margin: 0 200px;
+    }
+}

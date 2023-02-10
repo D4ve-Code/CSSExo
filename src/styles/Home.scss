@@ -1,0 +1,53 @@
+.firstPart{
+    height: 100vh;
+    .homePart{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 150px 0;
+        .imageHome{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{
+                width: 400px;
+                height: 250px;
+            }
+        }
+        .part1Home{
+            width: 35vw;
+            height: 20vw;
+            text-align: justify;
+            h1{
+                text-align: end;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .cuttingPart{
+        background-color: var(--third-color);
+        height: 15vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            width: 40vw;
+        }
+    }
+}
+
+.secondPart{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    :nth-child(2n){
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 100px;
+    }
+}
